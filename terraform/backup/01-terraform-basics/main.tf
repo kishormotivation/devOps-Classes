@@ -5,10 +5,16 @@ provider "aws" {
 
 # plan - execute 
 resource "aws_s3_bucket" "my_s3_bucket" {
+
     bucket = "my-s3-bucket-in28minutes-rangak-002"
  #   versioning {
  #       enabled = true
  #   }
+    bucket = "my-s3-bucket-in28minutes-sathishm-002"
+    versioning {
+        enabled = true
+    }
+>>>>>>> 70281d0 (Upgraded to latest version)
 }
 
 resource "aws_s3_bucket_versioning" "versioning_example" {

@@ -1,13 +1,4 @@
-resource "azurerm_resource_group" "resource_group" {
-  name     = "${var.resource_group}_${var.environment}"
-  location = var.location
-}
-
-provider "azurerm" {
-  //version = "~>2.0.0"
-  features {}
-}
-
+>>>>>>> 70281d0 (Upgraded to latest version)
 resource "azurerm_kubernetes_cluster" "terraform-k8s" {
   name                = "${var.cluster_name}_${var.environment}"
   location            = azurerm_resource_group.resource_group.location
@@ -26,7 +17,9 @@ resource "azurerm_kubernetes_cluster" "terraform-k8s" {
     name            = "agentpool"
     node_count      = var.node_count
     vm_size         = "standard_b2ms"
+
     # vm_size         = "standard_d2as_v5"      CHANGE IF AN ERROR ARISES 
+>>>>>>> 70281d0 (Upgraded to latest version)
   }
 
   service_principal {
