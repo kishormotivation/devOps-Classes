@@ -1,6 +1,6 @@
 # Kubernetes
 
-## Projects
+# Projects
 - Hello World REST API
 - 2 Microservices - Currency Exchange and Currency Conversion
 
