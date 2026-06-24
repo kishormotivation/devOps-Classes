@@ -1,6 +1,6 @@
 # Ansible
 
-## Step By Step Details
+# Step By Step Details
 - Step 01 - Creating EC2 Instances for Ansible - Manually and with Terraform
 - Step 02 - Setting Ansible Project with cfg and ansible hosts
 - Step 03 - Playing with Ansible Commands
