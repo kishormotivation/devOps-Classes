@@ -16,7 +16,7 @@
 - Step 03 - Creating your first Azure DevOps Pipeline
 - Step 04 - Getting Started with Azure DevOps - Agents and Jobs - 1
 - Step 05 - Getting Started with Azure DevOps - Agents and Jobs - 2
-- Step 06 - Using dependsOn with Jobs
+- Step 06 - Using depends on with Jobs
 - Step 07 - Creating Azure DevOps Pipeline for Playing with Stages 
 - Step 08 - Playing with Variables and dependsOn for Stages
 - Step 09 - Understanding Azure DevOps Pipeline Variables
