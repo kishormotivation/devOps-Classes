@@ -2,7 +2,7 @@
 
 ## Projects
 - Hello World - Java, JavaScript and Python
-- 2 Microservices - Currency Exchange and Currency Conversion
+- 3 Microservices - Currency Exchange and Currency Conversion
 
 ## Steps
 - Step 01 - Docker and DevOps - Installation and Introduction
